@@ -1,10 +1,10 @@
-#NEWS ANALYSIS
+# NEWS ANALYSIS
   This is a simple python script allowing users to evaluate three questions from the news database. By running this code you can determine the:
   1. three most popular articles of all time
   2. the most popular authors of all time
   3. which days more than 1% of requests lead to errors.
 
-##Installation
+## Installation
   You should have **python** and **postgresql** installed on your machine.
   In order to properly run this code you will need access to the news database.
     - To begin, load the data from the news database into your local database.
@@ -19,7 +19,7 @@
     -You will see "connected..." if the database connects successfully
 
 
-##Views
+## Views
   This code runs two views: errtotals and visittotals.
   `Errtotals is a view that sums the total request errors that occurred on an individual day. It has two columns, date (time) and total errors (int).`
   `Visittotals is a view that sums the total visits to the site on an individual day. It has two columns, date (time) and total visits (int).`
